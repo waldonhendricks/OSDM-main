@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Open Door School of Ministry</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background: #f9f9f9;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+    
+            h1 {
+                text-align: center;
+                font-size: 3rem;
+                margin-bottom: 20px;
+                color: #333;
+            }
+    
+            h5 {
+                text-align: center;
+                font-size: 1.2rem;
+                color: #444;
+                font-style: italic;
+                margin: 10px 0;
+            }
+    
+            /* Gallery container */
+            .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            border: 3px solid #ddd;
+        }
+
+        .gallery-item img {
+            height: 200px;
+            object-fit: cover;
+            
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item:hover img {
+            filter: grayscale(0);
+        }
+
+        .quote-container {
+            grid-column: span 4;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #555;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+    
+            /* Call to action */
+            .call-to-action {
+                text-align: center;
+                margin-top: 30px;
+            }
+    
+            .call-to-action a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #3366cc;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s ease-in-out;
+            }
+    
+            .call-to-action a:hover {
+                background-color: #2853a8;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+         <!-- Navbar Start -->
+         <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-lg-0">
+                    <a href="index.html" class="navbar-brand">
+                        <a href="#"><img id="logo" src="img/Logo.png"></a><h1 class="text-primary mb-0 display-5">OPEN DOOR</h1>
+                    </a>
+                    <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="index.html" class="nav-item nav-link">About</a>
+                            <a href="index.html" class="nav-item nav-link">Faculty</a>
+                            <a href="index.html" class="nav-item nav-link">Programs</a>
+                            <a href="index.html" class="nav-item nav-link">Gallery</a>
+                            <a href="index.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5">
+            <div class="container text-center py-5">
+                <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Our Gallery</h5>
+                <h1 class="display-5">Our Graduations and Graduates</h1>
+    
+                <!-- 2018 Graduation Section -->
+                <h1>2020 Graduation Gallery</h1>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="img/Grad/20201.jpg" alt="2018 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20202.jpg" alt="2018 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20203.jpg" alt="2018 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20204.jpg" alt="2018 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20205.jpg" alt="2018 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20206.jpg" alt="2018 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20207.jpg" alt="2018 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20208.jpg" alt="2018 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202011.jpg" alt="2018 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202012.jpg" alt="2018 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202013.jpg" alt="2018 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202015.jpg" alt="2018 Graduation 4">
+                    </div>
+                    
+                    <div class="quote-container">"For I know the plans I have for you, declares the Lord..." – Jeremiah 29:11</div>
+                </div>
+    
+                <!-- 2020 Graduation Section -->
+                <h1>2022 Graduation Gallery</h1>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="img/Grad/20224.jpg" alt="2020 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20225.jpg" alt="2020 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20226.jpg" alt="2020 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20227.jpg" alt="2020 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20228.jpg" alt="2020 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20229.jpg" alt="2020 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202210.jpg" alt="2020 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202211.jpg" alt="2020 Graduation 4">
+                    </div>
+                   
+                    <div class="quote-container">"The Lord bless you and keep you..." – Numbers 6:24</div>
+                </div>
+    
+                <!-- 2022 Graduation Section -->
+                <h1>2023 Graduation Gallery</h1>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="img/Grad/20231.jpg" alt="2022 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20232.jpg" alt="2022 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20233.jpg" alt="2022 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20234.jpg" alt="2022 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20235.jpg" alt="2022 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20236.jpg" alt="2022 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20237.jpg" alt="2022 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20238.jpg" alt="2022 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/20239.jpg" alt="2022 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202314.jpg" alt="2022 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202315.jpg" alt="2022 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202316.jpg" alt="2022 Graduation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202317.jpg" alt="2022 Graduation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202318.jpg" alt="2022 Graduation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202319.jpg" alt="2022 Graduation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Grad/202320.jpg" alt="2022 Graduation 2">
+                    </div>
+                    
+                    
+                    <div class="quote-container">"Commit to the Lord whatever you do..." – Proverbs 16:3</div>
+                </div>
+            </div>
+        </div>
+                <!-- Call to action -->
+                
+<!--End of 2021 Graduation-->
+
+        <!-- Get In Touch Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay=".3s">
+            <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                    <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Register For Class</h5>
+                </div>
+                <div class="bg-light px-4 py-5 rounded">
+                    <div class="text-center">
+                        <h1 class="display-5 mb-5">Register For our Program</h1>
+                    </div>
+                    <form class="text-center mb-4" action="https://formspree.io/f/xqakklnk" method="POST">
+                        <div class="row g-4">
+                            <div class="col-xl-10 col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-xl-3">
+                                        <select class="form-select p-3 border-0" name="program_of_choice">
+                                            <option value="Program of Choice" class="">Program of Choice</option>
+                                            <option value="BASIC BIBLICAL COUNSELLING">BASIC BIBLICAL COUNSELLING</option>
+                                            <option value="BASIC CHRISTIAN LEADERSHIP">BASIC CHRISTIAN LEADERSHIP</option>
+                                            <option value="CHURCH PLANTING">CHURCH PLANTING</option>
+                                            <option value="CHILDREN AND YOUTH MINISTRY">CHILDREN AND YOUTH MINISTRY</option>
+                                            <option value="CHRISTIAN MINISTRY">CHRISTIAN MINISTRY</option>
+                                            <option value="ADVANCED CHRISTIAN LEADERSHIP">ADVANCED CHRISTIAN LEADERSHIP</option>
+                                            <option value="BASIC MUSIC SKILLS">BASIC MUSIC SKILLS</option>
+                                            <option value="PASTORAL MINISTRY">PASTORAL MINISTRY</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <input type="text" class="form-control p-3 border-0" placeholder="Name & Surname" name="name" required>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <input type="text" class="form-control p-3 border-0" placeholder="Phone" name="phone" required>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <input type="email" class="form-control p-3 border-0" placeholder="Email" name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-12">
+                                <input type="submit" class="btn btn-primary w-100 p-3 border-0" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Get In Touch End -->
+
+
+                <!-- Footer Start -->
+                <section id="Contact">
+                    <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Contact Us</h5>
+                        <h1 class="display-5 w-50 mx-auto">We hope to here from you soon</h1>
+                    </div>
+                    
+                    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay=".3s">
+                        <div class="container py-5">
+                            <div class="row g-4 footer-inner">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="footer-item">
+                                        <h4 class="text-white fw-bold mb-4">About Open Door School of Ministry.</h4>
+                                        <p>We are committed to teaching ministry skills that enable
+                                            believers for relevant, meaningful and practical
+                                            Christian Ministry.<br>
+                                          </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="footer-item">
+                                        <h4 class="text-white fw-bold mb-4">Usefull Link</h4>
+                                        <div class="d-flex flex-column align-items-start">
+                                            <a class="btn btn-link ps-0" href="index.html"><i class="fa fa-check me-2"></i>About Us</a>
+                                            <a class="btn btn-link ps-0" href="index.html"><i class="fa fa-check me-2"></i>Faculty</a>
+                                            <a class="btn btn-link ps-0" href="index.html"><i class="fa fa-check me-2"></i>Programs</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="footer-item">
+                                        <h4 class="text-white fw-bold mb-4">Contact Us</h4>
+                                        <a href="https://goo.gl/maps/jc3C3nqZ31RJrbU89" class="btn btn-link w-100 text-start ps-0 pb-3 border-bottom rounded-0"><i class="fa fa-map-marker-alt me-3"></i>Sandile Avenue, Langa</a>
+                                        <a href="tel:0216942177" class="btn btn-link w-100 text-start ps-0 py-3 border-bottom rounded-0"><i class="fa fa-phone-alt me-3"></i>021 694 2177</a>
+                                        <a href="mailto:school@langabaptist.org" class="btn btn-link w-100 text-start ps-0 py-3 border-bottom rounded-0"><i class="fa fa-envelope me-3"></i>school@langabaptist.org</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                    <!-- Footer End -->
+            
+            
+            
+                    <!-- Copyright Start -->
+                    <div class="container-fluid copyright bg-dark py-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                                    <a href="#"><img id="logo" src="img/Logo.png"></a>
+                                </div>
+                                <div class="col-md-4 copyright-btn text-center text-md-start mb-3 mb-md-0 flex-shrink-0">
+                                    <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.facebook.com/opendoorsom"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-md-4 my-auto text-center text-md-end text-white">
+                                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                                    Designed By <a class="border-bottom" href="https://htmlcodex.com">N.Ngoye</a><br>Distributed By <a class="border-bottom" href="https://themewagon.com">CPUT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary rounded-circle border-3 back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
